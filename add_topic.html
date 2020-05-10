@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Add Topics</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link  rel="stylesheet" href="./css/add.css">
+
+</head>
+<body>
+<div class="grid-container">
+   <div class="menu-icon">
+    <i class="fas fa-bars header__menu"></i>
+  </div>
+   
+  <header class="header">
+    <div class="header__avatar">Admin</div>
+  </header>
+
+  <aside class="sidenav">
+    <div class="sidenav__close-icon">
+      <i class="fas fa-times sidenav__brand-close"></i>
+    </div>
+    <ul class="sidenav__list">
+      <h1 class="header_title">Add Topics</h1>
+      <li class="sidenav__list-item"><a href="index.html">Manage Posts</a></li>
+      <li class="sidenav__list-item"><a href="manage_users.html">Manage Users</a></li>
+      <li class="sidenav__list-item"><a href="manage_topics.html">Manage Topics</a></li>
+    </ul>
+  </aside>
+
+  <div class="container">
+      <h1>Add Topics</h1>
+    <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="topic">Topic</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="topic" name="topic" placeholder="Add Topic Here...">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="description">Description</label>
+      </div>
+      <div class="col-75">
+        <textarea id="description" name="description" placeholder="Write Description Here..." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Add Topic">
+    </div>
+    </form>
+  </div>
+<script  src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script  src="./js/script.js"></script>
+
+</body>
+</html>
